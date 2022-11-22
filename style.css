@@ -1,0 +1,108 @@
+body {
+    background-color:hsl(185, 75%, 39%);
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 290px;
+    height: 300px;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background-color:white;
+	align-items: center;
+	border-radius: 15px;
+}
+
+.bg {
+    width: 290px;
+    height: 115px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.dot {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: 72px;
+  }
+
+.avatar {
+    border-radius: 50%;
+    width: 83px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.age {
+    color: hsl(278, 4%, 52%);
+    background: none;
+    font-weight: 100; 
+    margin-left: 5px;
+}
+
+.subtitle {
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.2;
+    color: hsl(278, 4%, 52%);
+    margin-bottom: 20px;
+}
+
+.line-1 {
+    height: 0.1px;
+    background: hsl(279, 20%, 86%);
+    width: 290px;
+  }
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-child {
+    width: 80px;
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tag {
+    font-size: 10px;
+    font-weight: 100; 
+    color: hsl(244, 8%, 59%);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.attribution {
+    margin-bottom: 10px;
+	font-size: 8px;
+	position: fixed;
+	bottom: 30px;
+	text-align: center;
+  	left: 50%;
+  	transform: translate(-50%);
+    color: white;
+}
